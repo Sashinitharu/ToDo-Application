@@ -27,16 +27,15 @@ public class SplashActivity extends AppCompatActivity {
         fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
 
         gCircle = findViewById(R.id.topCircleImage);
-        d_it = findViewById(R.id.bottomImage);
         logo = findViewById(R.id.logo1);
 
         logo.setVisibility(View.VISIBLE);
 
         gCircle.setVisibility(View.VISIBLE);
-        d_it.setVisibility(View.VISIBLE);
+        //d_it.setVisibility(View.VISIBLE);
 
         gCircle.startAnimation(topAnime);
-        d_it.startAnimation(bottomAnime);
+        //d_it.startAnimation(bottomAnime);
 
         topAnime.setAnimationListener(new Animation.AnimationListener() {
             @Override
