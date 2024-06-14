@@ -189,7 +189,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/open_sans_bold"
-        android:text="Sashini"
+        android:text="K.A Sashini"
         android:textColor="@color/black"
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
